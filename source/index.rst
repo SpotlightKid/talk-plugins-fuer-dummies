@@ -49,11 +49,13 @@ Die Struktur eines Plugins
 
 * Ein Plugin ist eine Shared Library + ggf. Metadaten (LV2)
 * Der Plugin-Host lädt die Library und ruft vorgebene Funktionen auf
+
   * Metadaten-Discovery
   * Plugin-Initialisierung
   * Parameterabfrage und -änderung
   * Presetprogramme auflisten und laden
   * Audio-Processing
+
 * In C++ meist als Subklasse einer vorgegeben Plugin-Klasse implementiert
 
 
@@ -124,7 +126,7 @@ Projekt kompilieren
     $ cd atkdelay
     $ make
 
-Und installieren:
+Und installieren::
 
     $ mkdir -p ~/.lv2 ~/.vst
     $ cp -r bin/atkdelay.lv2 ~/.lv2
