@@ -310,6 +310,8 @@ slide_levels = 3
 #     'custom_js': 'custom.js',
 # }
 
+slide_theme_options = {'custom_css': 'custom.css'}
+
 # ----------------------------------------------
 
 
