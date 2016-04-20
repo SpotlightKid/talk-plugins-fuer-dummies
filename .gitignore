@@ -1,0 +1,12 @@
+*.pdf
+*.ps
+*.midi
+*.mid
+*.log
+*~
+index.html
+index.rst
+build/
+source/_static
+example_*.png
+autumn_leaves*.xml
